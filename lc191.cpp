@@ -6,7 +6,7 @@ public:
         int c = 0;
         while(n!=0){
             if(n&1){
-                c++;
+                c=c+1;
             }
             n=n>>1;
         }
