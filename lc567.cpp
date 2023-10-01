@@ -35,6 +35,7 @@ bool checkInclusion(string s1, string s2) {
         c2[n]++;
         char old = s2[i-windowSize];
         n = old - 'a';
+        c2[n]--;
         i++;
         if(check(c1,c2))
             return 1 ;
