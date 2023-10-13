@@ -9,7 +9,7 @@ int search(vector<vector<int>>& arr, int k) {
     int end = (row * col) -1;
     int start = 0;
     int mid= start + ((end - start)/2); 
-    while (start<end)
+    while (start<=end)
     {
         if (k == arr[mid/col][mid%col])
         {
